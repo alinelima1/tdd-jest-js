@@ -30,4 +30,10 @@ describe("calculadora", () => {
             expect(calculadora.divisao(4,2)).toBe(2)
         })
     });
+
+    describe('Teste de divisão por zero', () => {
+        it('Retorna 0 quando 4 / 0', () => {
+            expect(calculadora.divisao(4,0)).toBe(0)
+        })
+    });
 })
