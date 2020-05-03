@@ -6,6 +6,10 @@ Para executar o teste executar o comando:
 
 ```npm test```
 
-Para realizar o teste com o relatório, executar o comando:
+Foi adicionado o coverage ao package.json para exibir o relatório do teste, quando o npm test é executado.
 
-```npm test --coverage```
+```
+"scripts": {
+    "test": "jest --coverage"
+  }
+``` 
