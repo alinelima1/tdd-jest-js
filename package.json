@@ -1,0 +1,14 @@
+{
+  "name": "modulo-quatro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Aline de Souza Lima Abreu",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^25.5.4"
+  }
+}
